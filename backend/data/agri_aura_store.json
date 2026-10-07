@@ -1,0 +1,599 @@
+{
+  "profiles": {
+    "00000000-0000-0000-0000-000000000001": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "full_name": "Dr. Sarah Vance",
+      "email": "agronomist@agriaura.io",
+      "farm_name": "Verdant Horizon Agriculture Labs",
+      "role": "agronomist"
+    }
+  },
+  "crop_advisories": {
+    "f4857f3d-0220-4127-b97f-fb6dd82ee8b5": {
+      "field_name": "North Pivot 4 - River Basin",
+      "field_size_acres": 120,
+      "crop_type": "Maize (Dent Corn)",
+      "growth_stage": "Vegetative V3-V4",
+      "soil_type": "Sandy Loam",
+      "soil_ph": 6.2,
+      "soil_n_status": "Deficient",
+      "soil_p_status": "Optimal",
+      "soil_k_status": "Optimal",
+      "soil_moisture_pct": 78,
+      "recent_rainfall_mm": 48,
+      "temperature_celsius": 24.5,
+      "humidity_pct": 82,
+      "observed_symptoms": "Pronounced yellowing beginning along midribs of lower, older leaves forming an inverted V-shape.",
+      "symptom_distribution": "Along Irrigation Lines",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "status": "ANALYZING",
+      "overall_risk_level": "LOW",
+      "requires_human_approval": false,
+      "is_approved": false,
+      "id": "f4857f3d-0220-4127-b97f-fb6dd82ee8b5",
+      "created_at": "2026-10-07T13:49:45.611Z",
+      "updated_at": "2026-10-07T13:49:45.611Z"
+    },
+    "4659db81-c0f7-40b3-8442-b2dceb03e410": {
+      "field_name": "North Pivot 4 - River Basin",
+      "field_size_acres": 120,
+      "crop_type": "Maize (Dent Corn)",
+      "growth_stage": "Vegetative V3-V4",
+      "soil_type": "Sandy Loam",
+      "soil_ph": 6.2,
+      "soil_n_status": "Deficient",
+      "soil_p_status": "Optimal",
+      "soil_k_status": "Optimal",
+      "soil_moisture_pct": 78,
+      "recent_rainfall_mm": 48,
+      "temperature_celsius": 24.5,
+      "humidity_pct": 82,
+      "observed_symptoms": "Pronounced yellowing beginning along midribs of lower, older leaves forming an inverted V-shape.",
+      "symptom_distribution": "Along Irrigation Lines",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "status": "APPROVED",
+      "overall_risk_level": "MODERATE",
+      "requires_human_approval": false,
+      "is_approved": true,
+      "id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "created_at": "2026-10-07T13:53:17.698Z",
+      "updated_at": "2026-10-07T13:53:54.983Z",
+      "approved_by": "00000000-0000-0000-0000-000000000001",
+      "approval_timestamp": "2026-10-07T13:53:54.983Z",
+      "final_summary": "Agri-AURA multi-agent analysis diagnosed Nitrogen Leaching & Mobile N-Deficiency Post-Downpour on field \"North Pivot 4 - River Basin\" with 94% confidence. To prevent yield decline at Vegetative V3-V4 stage, an intervention of Split-Application Ammonium Nitrate / Urea (UAN-32) with Nitrification Inhibitor (FERTIGATION_MINERAL) has been prescribed. Auto-cleared: Intervention complies with biological safety thresholds. Total tasks generated: 3.",
+      "worker_instructions": "FIELD WORKER PROTOCOL FOR \"NORTH PIVOT 4 - RIVER BASIN\":\n1. SAFETY FIRST: Wear standard protective gear: rubber boots, work gloves, and eye protection.\n2. TANK MIX PREPARATION: Fill clean spray tank to 50% capacity with clean water. Add calibrated dose (22 kg N / Acre (68.75 L UAN-32 liquid solution)). Agitate thoroughly for 3 minutes before topping with remaining water.\n3. TIMING: Apply strictly during the calibrated window (Immediate morning calm window (wind < 8 km/h)). Avoid application if wind exceeds 10 km/h to prevent chemical drift.\n4. SPRAY TECHNIQUE: Maintain nozzle height 45cm above crop canopy. Target underside of foliage where pests/pathogens shelter.\n5. RE-ENTRY INTERVAL: Safe field re-entry after spray deposit has completely dried (approx. 2 hours).\n6. HARVEST RESTRICTION: No pre-harvest withholding period applies."
+    },
+    "ae20f2fc-458f-4332-b352-8ebcdca0f01a": {
+      "field_name": "East Alluvial Plot 12",
+      "field_size_acres": 85,
+      "crop_type": "Upland Cotton (Gossypium hirsutum)",
+      "growth_stage": "Boll Development (Stage 60% Open)",
+      "soil_type": "Clay Loam",
+      "soil_ph": 7.4,
+      "soil_n_status": "Optimal",
+      "soil_p_status": "Optimal",
+      "soil_k_status": "Optimal",
+      "soil_moisture_pct": 42,
+      "recent_rainfall_mm": 0,
+      "temperature_celsius": 33,
+      "humidity_pct": 54,
+      "observed_symptoms": "Square shedding and round bore holes observed in 18% of surveyed green bolls with visible larval frass. Third-instar caterpillars detected feeding inside flower bracts and young bolls.",
+      "symptom_distribution": "Field-Wide Uniform",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "status": "APPROVED",
+      "overall_risk_level": "HIGH",
+      "requires_human_approval": true,
+      "is_approved": true,
+      "id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "created_at": "2026-10-07T13:56:07.659Z",
+      "updated_at": "2026-10-07T13:56:43.144Z",
+      "approved_by": "00000000-0000-0000-0000-000000000001",
+      "approval_timestamp": "2026-10-07T13:56:43.144Z",
+      "final_summary": "Agri-AURA multi-agent analysis diagnosed Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation on field \"East Alluvial Plot 12\" with 96% confidence. To prevent yield decline at Boll Development (Stage 60% Open) stage, an intervention of Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28) (CHEMICAL_SYNTHETIC) has been prescribed. MANDATORY HITL APPROVAL: High-risk synthetic application flagged with 14-day Pre-Harvest Interval. Total tasks generated: 3.\n\n[Human-in-the-Loop Override by Agronomist]: Approved with mandatory 14-day PHI buffer",
+      "worker_instructions": "FIELD WORKER PROTOCOL FOR \"EAST ALLUVIAL PLOT 12\":\n1. SAFETY FIRST: Wear full chemical PPE: nitrile gloves, splash goggles, long-sleeved overalls, and half-face vapor mask.\n2. TANK MIX PREPARATION: Fill clean spray tank to 50% capacity with clean water. Add calibrated dose (60 mL / Acre in 150 L water). Agitate thoroughly for 3 minutes before topping with remaining water.\n3. TIMING: Apply strictly during the calibrated window (Evening dusk window, zero rain forecast within 36h). Avoid application if wind exceeds 10 km/h to prevent chemical drift.\n4. SPRAY TECHNIQUE: Maintain nozzle height 45cm above crop canopy. Target underside of foliage where pests/pathogens shelter.\n5. RE-ENTRY INTERVAL: Do NOT allow unprotected workers into the treated zone for 24 hours post-spray.\n6. HARVEST RESTRICTION: DO NOT HARVEST ANY CROPS FROM THIS PLOT FOR AT LEAST 14 DAYS."
+    }
+  },
+  "advisory_agent_events": [
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "agent": "PLANNER",
+      "step_number": 1,
+      "status": "COMPLETED",
+      "summary": "Formulated 5 diagnostic subtasks focusing on Differentiate soil mineral imbalance under Sandy Loam conditions at Vegetative V3-V4 stage",
+      "reasoning_trace": {
+        "primary_focus": "Differentiate soil mineral imbalance under Sandy Loam conditions at Vegetative V3-V4 stage",
+        "risk_factors": [
+          "High post-precipitation leaching and foliar wash-off",
+          "Optimal soil mineral assimilation window",
+          "Along Irrigation Lines symptom progression speed"
+        ]
+      },
+      "output_data": {
+        "planner_subtasks": [
+          "Audit Maize (Dent Corn) growth stage (Vegetative V3-V4) nutrient demand curve against current soil status",
+          "Correlate visual symptom \"Pronounced yellowing beginning along mid...\" with Sandy Loam chemistry and pH 6.2",
+          "Evaluate weather interactions: 48mm precipitation and 82% RH risk factors",
+          "Investigate spatial pattern (Along Irrigation Lines) for biotic infection vs abiotic leaching vectors",
+          "Formulate stratified biological and chemical intervention options with regulatory threshold checks"
+        ],
+        "primary_focus": "Differentiate soil mineral imbalance under Sandy Loam conditions at Vegetative V3-V4 stage",
+        "risk_factors_to_investigate": [
+          "High post-precipitation leaching and foliar wash-off",
+          "Optimal soil mineral assimilation window",
+          "Along Irrigation Lines symptom progression speed"
+        ]
+      },
+      "latency_ms": 6119,
+      "id": "8b71362f-64fb-4d4e-a46f-e1db13f8962f",
+      "created_at": "2026-10-07T13:53:24.820Z"
+    },
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "agent": "RESEARCHER",
+      "step_number": 2,
+      "status": "COMPLETED",
+      "summary": "Diagnosed Nitrogen Leaching & Mobile N-Deficiency Post-Downpour (94% confidence)",
+      "reasoning_trace": {
+        "soil_chemistry_analysis": "At pH 6.2, nitrogen in nitrate form (NO3-) carries high negative charge and does not bind to sandy soil colloids, causing rapid gravitational leaching below the effective root zone (0-30cm).",
+        "stress_factors": [
+          "48mm rainfall induced downward nitrate percolation in porous Sandy Loam",
+          "High rapid vegetative demand during Vegetative V3-V4 phase exceeding current root uptake"
+        ],
+        "nutrient_details": "Nitrogen is highly phloem-mobile; the plant translocates stored N from older lower leaves to newer vegetative tissue, manifesting classic V-shaped inverted chlorosis."
+      },
+      "output_data": {
+        "primary_diagnosis": "Nitrogen Leaching & Mobile N-Deficiency Post-Downpour",
+        "diagnosis_confidence": 94,
+        "stress_factors": [
+          "48mm rainfall induced downward nitrate percolation in porous Sandy Loam",
+          "High rapid vegetative demand during Vegetative V3-V4 phase exceeding current root uptake"
+        ],
+        "soil_chemistry_analysis": "At pH 6.2, nitrogen in nitrate form (NO3-) carries high negative charge and does not bind to sandy soil colloids, causing rapid gravitational leaching below the effective root zone (0-30cm).",
+        "initial_risk_level": "MODERATE",
+        "nutrient_deficiency_details": "Nitrogen is highly phloem-mobile; the plant translocates stored N from older lower leaves to newer vegetative tissue, manifesting classic V-shaped inverted chlorosis."
+      },
+      "latency_ms": 6260,
+      "id": "bf2c95bb-e67d-406d-b11f-f818b26f3dd5",
+      "created_at": "2026-10-07T13:53:31.403Z"
+    },
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "agent": "DECISION",
+      "step_number": 3,
+      "status": "COMPLETED",
+      "summary": "Selected FERTIGATION_MINERAL: Split-Application Ammonium Nitrate / Urea (UAN-32) with Nitrification Inhibitor",
+      "reasoning_trace": {
+        "rationale": "Selected targeted split-fertigation with a nitrification inhibitor (DCD) over bulk dry urea broadcasting to prevent further downward leaching in porous Sandy Loam while rapidly restoring leaf chlorophyll density.",
+        "alternatives_considered": [
+          "Bulk surface Urea broadcast (rejected due to immediate volatilization and leaching under wet profile)",
+          "Heavy organic compost tea alone (rejected due to slow mineralization rate during critical V3-V6 surge)"
+        ]
+      },
+      "output_data": {
+        "selected_intervention_type": "FERTIGATION_MINERAL",
+        "primary_treatment": "Split-Application Ammonium Nitrate / Urea (UAN-32) with Nitrification Inhibitor",
+        "secondary_treatment": "Humic Acid Soil Conditioning + Light Calcium Nitrate Foliar Boost",
+        "decision_rationale": "Selected targeted split-fertigation with a nitrification inhibitor (DCD) over bulk dry urea broadcasting to prevent further downward leaching in porous Sandy Loam while rapidly restoring leaf chlorophyll density.",
+        "treatment_alternatives_considered": [
+          "Bulk surface Urea broadcast (rejected due to immediate volatilization and leaching under wet profile)",
+          "Heavy organic compost tea alone (rejected due to slow mineralization rate during critical V3-V6 surge)"
+        ]
+      },
+      "latency_ms": 5674,
+      "id": "ebd45eae-54f1-495c-abb5-910077e5d50e",
+      "created_at": "2026-10-07T13:53:37.954Z"
+    },
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "agent": "VERIFIER",
+      "step_number": 4,
+      "status": "COMPLETED",
+      "summary": "Verified biosecure with 0 restricted residues (Risk: MODERATE)",
+      "reasoning_trace": {
+        "biosecurity_evaluation": "Intervention cleared within standard agronomic safety thresholds. No synthetic biocide residue restrictions detected.",
+        "hazards": [
+          "High precipitation (48mm): Foliar contact wash-off risk if applied prior to rain-dry interval",
+          "Electrical Conductivity (EC) surge watch: Keep fertigation solution below 2.2 dS/m"
+        ],
+        "rain_washoff_risk": true
+      },
+      "output_data": {
+        "is_safe_for_growth_stage": true,
+        "rain_washoff_risk": true,
+        "phi_days_required": 0,
+        "requires_human_approval": false,
+        "flagged_hazards": [
+          "High precipitation (48mm): Foliar contact wash-off risk if applied prior to rain-dry interval",
+          "Electrical Conductivity (EC) surge watch: Keep fertigation solution below 2.2 dS/m"
+        ],
+        "biosecurity_evaluation": "Intervention cleared within standard agronomic safety thresholds. No synthetic biocide residue restrictions detected.",
+        "overall_risk_level": "MODERATE"
+      },
+      "latency_ms": 5791,
+      "id": "027c5d81-62ae-40d7-a5bf-2d101b812129",
+      "created_at": "2026-10-07T13:53:44.434Z"
+    },
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "agent": "EXECUTOR",
+      "step_number": 5,
+      "status": "COMPLETED",
+      "summary": "Generated 3 calibrated field tasks within window \"Immediate morning calm window (wind < 8 km/h)\"",
+      "reasoning_trace": {
+        "application_window": "Immediate morning calm window (wind < 8 km/h)",
+        "irrigation_adjustment_hours": -2
+      },
+      "output_data": {
+        "action_tasks": [
+          {
+            "task_title": "Direct Drip Fertigation: UAN-32 Injection with DCD Inhibitor",
+            "category": "FERTIGATION_MINERAL",
+            "dosage_or_rate": "22 kg N / Acre (68.75 L UAN-32 liquid solution)",
+            "application_method": "Venturi injector system into drip lines at 1.8 dS/m EC",
+            "scheduled_timing": "Day 1 - Morning (06:00 - 09:30)",
+            "pre_harvest_interval_days": 0,
+            "is_high_risk": false
+          },
+          {
+            "task_title": "Soil Conditioning: Humic Acid Fluvial Bio-Extract",
+            "category": "ORGANIC_BIOLOGICAL",
+            "dosage_or_rate": "2.5 L / Acre in 200 L water",
+            "application_method": "Soil drench along crop rows to enhance cation retention",
+            "scheduled_timing": "Day 3 - Late Afternoon",
+            "pre_harvest_interval_days": 0,
+            "is_high_risk": false
+          },
+          {
+            "task_title": "Canopy Chlorophyll NDVI Drone Re-Scan",
+            "category": "CULTURAL_MECHANICAL",
+            "dosage_or_rate": "Full field sensor scan",
+            "application_method": "Multispectral UAV telemetry pass",
+            "scheduled_timing": "Day 7 - Post application",
+            "pre_harvest_interval_days": 0,
+            "is_high_risk": false
+          }
+        ],
+        "irrigation_adjustment_hours": -2,
+        "application_window": "Immediate morning calm window (wind < 8 km/h)"
+      },
+      "latency_ms": 5693,
+      "id": "ae0299a0-91ce-4942-81ca-43565370ce72",
+      "created_at": "2026-10-07T13:53:50.424Z"
+    },
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "agent": "COMMUNICATOR",
+      "step_number": 6,
+      "status": "COMPLETED",
+      "summary": "Rendered manager executive briefing and multilingual worker instructions",
+      "reasoning_trace": {
+        "safety_warnings": {
+          "en": "Mandatory PPE required. Biological formulation: zero residue restriction.",
+          "es": "Equipo de protección personal obligatorio. Formulación biológica: sin restricción de residuos.",
+          "hi": "व्यक्तिगत सुरक्षा उपकरण अनिवार्य हैं। जैविक उपचार: सुरक्षित और अवशेष मुक्त।"
+        }
+      },
+      "output_data": {
+        "final_summary": "Agri-AURA multi-agent analysis diagnosed Nitrogen Leaching & Mobile N-Deficiency Post-Downpour on field \"North Pivot 4 - River Basin\" with 94% confidence. To prevent yield decline at Vegetative V3-V4 stage, an intervention of Split-Application Ammonium Nitrate / Urea (UAN-32) with Nitrification Inhibitor (FERTIGATION_MINERAL) has been prescribed. Auto-cleared: Intervention complies with biological safety thresholds. Total tasks generated: 3.",
+        "worker_instructions": "FIELD WORKER PROTOCOL FOR \"NORTH PIVOT 4 - RIVER BASIN\":\n1. SAFETY FIRST: Wear standard protective gear: rubber boots, work gloves, and eye protection.\n2. TANK MIX PREPARATION: Fill clean spray tank to 50% capacity with clean water. Add calibrated dose (22 kg N / Acre (68.75 L UAN-32 liquid solution)). Agitate thoroughly for 3 minutes before topping with remaining water.\n3. TIMING: Apply strictly during the calibrated window (Immediate morning calm window (wind < 8 km/h)). Avoid application if wind exceeds 10 km/h to prevent chemical drift.\n4. SPRAY TECHNIQUE: Maintain nozzle height 45cm above crop canopy. Target underside of foliage where pests/pathogens shelter.\n5. RE-ENTRY INTERVAL: Safe field re-entry after spray deposit has completely dried (approx. 2 hours).\n6. HARVEST RESTRICTION: No pre-harvest withholding period applies.",
+        "safety_warnings_multilingual": {
+          "en": "Mandatory PPE required. Biological formulation: zero residue restriction.",
+          "es": "Equipo de protección personal obligatorio. Formulación biológica: sin restricción de residuos.",
+          "hi": "व्यक्तिगत सुरक्षा उपकरण अनिवार्य हैं। जैविक उपचार: सुरक्षित और अवशेष मुक्त।"
+        }
+      },
+      "latency_ms": 3664,
+      "id": "a80a624c-9db8-46b2-a146-0dcb3e3f244a",
+      "created_at": "2026-10-07T13:53:54.832Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "agent": "PLANNER",
+      "step_number": 1,
+      "status": "COMPLETED",
+      "summary": "Formulated 5 diagnostic subtasks focusing on Differentiate pathological/entomological vectors under Clay Loam conditions at Boll Development (Stage 60% Open) stage",
+      "reasoning_trace": {
+        "primary_focus": "Differentiate pathological/entomological vectors under Clay Loam conditions at Boll Development (Stage 60% Open) stage",
+        "risk_factors": [
+          "Thermal and transpiration stress",
+          "Optimal soil mineral assimilation window",
+          "Field-Wide Uniform symptom progression speed"
+        ]
+      },
+      "output_data": {
+        "planner_subtasks": [
+          "Audit Upland Cotton (Gossypium hirsutum) growth stage (Boll Development (Stage 60% Open)) nutrient demand curve against current soil status",
+          "Correlate visual symptom \"Square shedding and round bore holes obs...\" with Clay Loam chemistry and pH 7.4",
+          "Evaluate weather interactions: 0mm precipitation and 54% RH risk factors",
+          "Investigate spatial pattern (Field-Wide Uniform) for biotic infection vs abiotic leaching vectors",
+          "Formulate stratified biological and chemical intervention options with regulatory threshold checks"
+        ],
+        "primary_focus": "Differentiate pathological/entomological vectors under Clay Loam conditions at Boll Development (Stage 60% Open) stage",
+        "risk_factors_to_investigate": [
+          "Thermal and transpiration stress",
+          "Optimal soil mineral assimilation window",
+          "Field-Wide Uniform symptom progression speed"
+        ]
+      },
+      "latency_ms": 3826,
+      "id": "28c66760-01cd-402e-bd41-63fd05861ae9",
+      "created_at": "2026-10-07T13:56:12.514Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "agent": "RESEARCHER",
+      "step_number": 2,
+      "status": "COMPLETED",
+      "summary": "Diagnosed Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation (96% confidence)",
+      "reasoning_trace": {
+        "soil_chemistry_analysis": "Soil fertility is adequate (K: Optimal, N: Optimal), but vegetative vigor has created dense canopy foliage providing shelter for nocturnal feeding.",
+        "stress_factors": [
+          "Favorable ambient temperature (33°C) accelerating larval instar progression",
+          "Crop currently in sensitive fruit/boll development stage where square boring causes irreversible yield loss"
+        ]
+      },
+      "output_data": {
+        "primary_diagnosis": "Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation",
+        "diagnosis_confidence": 96,
+        "stress_factors": [
+          "Favorable ambient temperature (33°C) accelerating larval instar progression",
+          "Crop currently in sensitive fruit/boll development stage where square boring causes irreversible yield loss"
+        ],
+        "soil_chemistry_analysis": "Soil fertility is adequate (K: Optimal, N: Optimal), but vegetative vigor has created dense canopy foliage providing shelter for nocturnal feeding.",
+        "initial_risk_level": "HIGH",
+        "pathogen_or_vector": "Helicoverpa armigera (Lepidoptera: Noctuidae)"
+      },
+      "latency_ms": 2504,
+      "id": "fa8ad07d-373a-4736-abb3-7850da2ea244",
+      "created_at": "2026-10-07T13:56:15.584Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "agent": "DECISION",
+      "step_number": 3,
+      "status": "COMPLETED",
+      "summary": "Selected CHEMICAL_SYNTHETIC: Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28)",
+      "reasoning_trace": {
+        "rationale": "Larval pressure in late-season boll stage requires high-efficacy, rainfast systemic ingestion ovicide/larvicide. Chlorantraniliprole selected for exceptional specificity, preserving beneficial predators, while avoiding older broad-spectrum organophosphates.",
+        "alternatives_considered": [
+          "Pyrethroid lambda-cyhalothrin (rejected due to documented regional target-site resistance and non-target mite flare)",
+          "Bacillus thuringiensis spray exclusively (rejected as primary due to high instar caterpillars already boring inside bracts)"
+        ]
+      },
+      "output_data": {
+        "selected_intervention_type": "CHEMICAL_SYNTHETIC",
+        "primary_treatment": "Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28)",
+        "secondary_treatment": "Bacillus thuringiensis kurstaki (Btk) microbial foliar application",
+        "decision_rationale": "Larval pressure in late-season boll stage requires high-efficacy, rainfast systemic ingestion ovicide/larvicide. Chlorantraniliprole selected for exceptional specificity, preserving beneficial predators, while avoiding older broad-spectrum organophosphates.",
+        "treatment_alternatives_considered": [
+          "Pyrethroid lambda-cyhalothrin (rejected due to documented regional target-site resistance and non-target mite flare)",
+          "Bacillus thuringiensis spray exclusively (rejected as primary due to high instar caterpillars already boring inside bracts)"
+        ]
+      },
+      "latency_ms": 2503,
+      "id": "802e17bd-c500-4e49-83e5-d03370d55f05",
+      "created_at": "2026-10-07T13:56:18.385Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "agent": "VERIFIER",
+      "step_number": 4,
+      "status": "WARNING",
+      "summary": "FLAGGED FOR HUMAN APPROVAL: PHI 14d, 3 hazards identified",
+      "reasoning_trace": {
+        "biosecurity_evaluation": "Synthetic agrochemical requires certified farm manager sign-off under Agri-AURA Safety Protocol. PHI is 14 days with strict buffer zone requirements.",
+        "hazards": [
+          "WHO Class II / Synthetic Active Ingredient: Regulated residue threshold",
+          "Mandatory Pre-Harvest Interval (PHI) of 14 days before mechanical or hand harvest",
+          "Strict Personal Protective Equipment (PPE) mandatory: chemical-resistant gloves, respirator"
+        ],
+        "rain_washoff_risk": false
+      },
+      "output_data": {
+        "is_safe_for_growth_stage": true,
+        "rain_washoff_risk": false,
+        "phi_days_required": 14,
+        "requires_human_approval": true,
+        "flagged_hazards": [
+          "WHO Class II / Synthetic Active Ingredient: Regulated residue threshold",
+          "Mandatory Pre-Harvest Interval (PHI) of 14 days before mechanical or hand harvest",
+          "Strict Personal Protective Equipment (PPE) mandatory: chemical-resistant gloves, respirator"
+        ],
+        "biosecurity_evaluation": "Synthetic agrochemical requires certified farm manager sign-off under Agri-AURA Safety Protocol. PHI is 14 days with strict buffer zone requirements.",
+        "overall_risk_level": "HIGH"
+      },
+      "latency_ms": 1841,
+      "id": "2002184f-6f4d-4920-b864-ea2a90bdb964",
+      "created_at": "2026-10-07T13:56:20.497Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "agent": "EXECUTOR",
+      "step_number": 5,
+      "status": "COMPLETED",
+      "summary": "Generated 3 calibrated field tasks within window \"Evening dusk window, zero rain forecast within 36h\"",
+      "reasoning_trace": {
+        "application_window": "Evening dusk window, zero rain forecast within 36h",
+        "irrigation_adjustment_hours": 0
+      },
+      "output_data": {
+        "action_tasks": [
+          {
+            "task_title": "Targeted High-Pressure Foliar Spray: Chlorantraniliprole 18.5% SC",
+            "category": "CHEMICAL_SYNTHETIC",
+            "dosage_or_rate": "60 mL / Acre in 150 L water",
+            "application_method": "Tractor boom sprayer with hollow-cone nozzles for full canopy penetration",
+            "scheduled_timing": "Day 1 - Dusk (17:30 - 20:00) during peak caterpillar emergence",
+            "pre_harvest_interval_days": 14,
+            "is_high_risk": true
+          },
+          {
+            "task_title": "Pheromone Trap Monitoring & Lure Replacement",
+            "category": "CULTURAL_MECHANICAL",
+            "dosage_or_rate": "5 trap stations / Acre",
+            "application_method": "Delta sticky traps with Helicoverpa sexual lure septum",
+            "scheduled_timing": "Day 2 - Morning",
+            "pre_harvest_interval_days": 0,
+            "is_high_risk": false
+          },
+          {
+            "task_title": "Secondary Bio-Barrier: Bacillus thuringiensis (Btk) Micro-Dust",
+            "category": "ORGANIC_BIOLOGICAL",
+            "dosage_or_rate": "400 g / Acre",
+            "application_method": "Foliar mist blower to protect upper terminal growth",
+            "scheduled_timing": "Day 8 - Following initial chemical dissipation",
+            "pre_harvest_interval_days": 0,
+            "is_high_risk": false
+          }
+        ],
+        "irrigation_adjustment_hours": 0,
+        "application_window": "Evening dusk window, zero rain forecast within 36h"
+      },
+      "latency_ms": 2385,
+      "id": "41af08b1-a110-4c09-a250-2fffcce2245c",
+      "created_at": "2026-10-07T13:56:23.200Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "agent": "COMMUNICATOR",
+      "step_number": 6,
+      "status": "COMPLETED",
+      "summary": "Rendered manager executive briefing and multilingual worker instructions",
+      "reasoning_trace": {
+        "safety_warnings": {
+          "en": "Mandatory PPE required. Pre-harvest withholding period: 14 days.",
+          "es": "Equipo de protección personal obligatorio. Periodo de carencia: 14 días antes de cosechar.",
+          "hi": "व्यक्तिगत सुरक्षा उपकरण अनिवार्य हैं। कटाई से पहले 14 दिनों का अनिवार्य अंतराल रखें।"
+        }
+      },
+      "output_data": {
+        "final_summary": "Agri-AURA multi-agent analysis diagnosed Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation on field \"East Alluvial Plot 12\" with 96% confidence. To prevent yield decline at Boll Development (Stage 60% Open) stage, an intervention of Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28) (CHEMICAL_SYNTHETIC) has been prescribed. MANDATORY HITL APPROVAL: High-risk synthetic application flagged with 14-day Pre-Harvest Interval. Total tasks generated: 3.",
+        "worker_instructions": "FIELD WORKER PROTOCOL FOR \"EAST ALLUVIAL PLOT 12\":\n1. SAFETY FIRST: Wear full chemical PPE: nitrile gloves, splash goggles, long-sleeved overalls, and half-face vapor mask.\n2. TANK MIX PREPARATION: Fill clean spray tank to 50% capacity with clean water. Add calibrated dose (60 mL / Acre in 150 L water). Agitate thoroughly for 3 minutes before topping with remaining water.\n3. TIMING: Apply strictly during the calibrated window (Evening dusk window, zero rain forecast within 36h). Avoid application if wind exceeds 10 km/h to prevent chemical drift.\n4. SPRAY TECHNIQUE: Maintain nozzle height 45cm above crop canopy. Target underside of foliage where pests/pathogens shelter.\n5. RE-ENTRY INTERVAL: Do NOT allow unprotected workers into the treated zone for 24 hours post-spray.\n6. HARVEST RESTRICTION: DO NOT HARVEST ANY CROPS FROM THIS PLOT FOR AT LEAST 14 DAYS.",
+        "safety_warnings_multilingual": {
+          "en": "Mandatory PPE required. Pre-harvest withholding period: 14 days.",
+          "es": "Equipo de protección personal obligatorio. Periodo de carencia: 14 días antes de cosechar.",
+          "hi": "व्यक्तिगत सुरक्षा उपकरण अनिवार्य हैं। कटाई से पहले 14 दिनों का अनिवार्य अंतराल रखें।"
+        }
+      },
+      "latency_ms": 2503,
+      "id": "75b6d3a1-3e59-4bf8-a53c-f0af163d4cb4",
+      "created_at": "2026-10-07T13:56:26.128Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "agent": "VERIFIER",
+      "step_number": 7,
+      "status": "COMPLETED",
+      "summary": "Human-in-the-Loop Gatekeeper: Action 'APPROVE' submitted by Farm Manager",
+      "reasoning_trace": {
+        "action": "APPROVE",
+        "modifications": "Approved with mandatory 14-day PHI buffer"
+      },
+      "output_data": {
+        "action": "APPROVE",
+        "timestamp": "2026-10-07T13:56:43.144Z"
+      },
+      "latency_ms": 12,
+      "id": "5f2c339d-a277-488b-8b85-c080fe8de7f7",
+      "created_at": "2026-10-07T13:56:50.557Z"
+    }
+  ],
+  "advisory_action_tasks": [
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "task_title": "Direct Drip Fertigation: UAN-32 Injection with DCD Inhibitor",
+      "category": "FERTIGATION_MINERAL",
+      "dosage_or_rate": "22 kg N / Acre (68.75 L UAN-32 liquid solution)",
+      "application_method": "Venturi injector system into drip lines at 1.8 dS/m EC",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 0,
+      "is_high_risk": false,
+      "status": "PENDING",
+      "id": "36edb72c-f6db-4d1e-80bd-4ed0e9ccb681",
+      "created_at": "2026-10-07T13:53:50.901Z"
+    },
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "task_title": "Soil Conditioning: Humic Acid Fluvial Bio-Extract",
+      "category": "ORGANIC_BIOLOGICAL",
+      "dosage_or_rate": "2.5 L / Acre in 200 L water",
+      "application_method": "Soil drench along crop rows to enhance cation retention",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 0,
+      "is_high_risk": false,
+      "status": "PENDING",
+      "id": "777299d0-0b9d-4a7e-91d2-2c2847b9fa8f",
+      "created_at": "2026-10-07T13:53:50.901Z"
+    },
+    {
+      "advisory_id": "4659db81-c0f7-40b3-8442-b2dceb03e410",
+      "task_title": "Canopy Chlorophyll NDVI Drone Re-Scan",
+      "category": "CULTURAL_MECHANICAL",
+      "dosage_or_rate": "Full field sensor scan",
+      "application_method": "Multispectral UAV telemetry pass",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 0,
+      "is_high_risk": false,
+      "status": "PENDING",
+      "id": "9404124e-473d-41b5-8dfc-5bcde8d21dd4",
+      "created_at": "2026-10-07T13:53:50.901Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "task_title": "Targeted High-Pressure Foliar Spray: Chlorantraniliprole 18.5% SC",
+      "category": "CHEMICAL_SYNTHETIC",
+      "dosage_or_rate": "60 mL / Acre in 150 L water",
+      "application_method": "Tractor boom sprayer with hollow-cone nozzles for full canopy penetration",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 14,
+      "is_high_risk": true,
+      "status": "PENDING",
+      "id": "3768daf0-4487-437f-8c22-e9029ac4501d",
+      "created_at": "2026-10-07T13:56:23.417Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "task_title": "Pheromone Trap Monitoring & Lure Replacement",
+      "category": "CULTURAL_MECHANICAL",
+      "dosage_or_rate": "5 trap stations / Acre",
+      "application_method": "Delta sticky traps with Helicoverpa sexual lure septum",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 0,
+      "is_high_risk": false,
+      "status": "PENDING",
+      "id": "b11f3347-76d9-4b5d-b454-562741634412",
+      "created_at": "2026-10-07T13:56:23.417Z"
+    },
+    {
+      "advisory_id": "ae20f2fc-458f-4332-b352-8ebcdca0f01a",
+      "task_title": "Secondary Bio-Barrier: Bacillus thuringiensis (Btk) Micro-Dust",
+      "category": "ORGANIC_BIOLOGICAL",
+      "dosage_or_rate": "400 g / Acre",
+      "application_method": "Foliar mist blower to protect upper terminal growth",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 0,
+      "is_high_risk": false,
+      "status": "PENDING",
+      "id": "c7401c86-5253-461e-94ef-63d4d7fec211",
+      "created_at": "2026-10-07T13:56:23.417Z"
+    }
+  ],
+  "system_metrics": {
+    "total_advisories_executed": {
+      "metric_key": "total_advisories_executed",
+      "numeric_value": 144
+    },
+    "successful_interventions": {
+      "metric_key": "successful_interventions",
+      "numeric_value": 139
+    },
+    "chemical_risks_prevented": {
+      "metric_key": "chemical_risks_prevented",
+      "numeric_value": 40
+    },
+    "water_cubic_meters_saved": {
+      "metric_key": "water_cubic_meters_saved",
+      "numeric_value": 21013
+    }
+  }
+}
