@@ -1,5 +1,7 @@
 node_modules/
-dist/
+frontend/dist/
+!backend/dist/
+!backend/frontend_dist/
 .DS_Store
 *.log
 npm-debug.log*
