@@ -120,6 +120,35 @@
       "approval_timestamp": "2026-10-07T14:40:02.137Z",
       "final_summary": "Agri-AURA multi-agent analysis diagnosed Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation on field \"East Alluvial Plot 12\" with 96% confidence. To prevent yield decline at Boll Development (Stage 60% Open) stage, an intervention of Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28) (CHEMICAL_SYNTHETIC) has been prescribed. MANDATORY HITL APPROVAL: High-risk synthetic application flagged with 14-day Pre-Harvest Interval. Total tasks generated: 3.\n\n[Human-in-the-Loop Override by Agronomist]: Calibrated for 85 acres with drone aerial boom sprayer. Certified by Farm Manager.",
       "worker_instructions": "FIELD WORKER PROTOCOL FOR \"EAST ALLUVIAL PLOT 12\":\n1. SAFETY FIRST: Wear full chemical PPE: nitrile gloves, splash goggles, long-sleeved overalls, and half-face vapor mask.\n2. TANK MIX PREPARATION: Fill clean spray tank to 50% capacity with clean water. Add calibrated dose (60 mL / Acre in 150 L water). Agitate thoroughly for 3 minutes before topping with remaining water.\n3. TIMING: Apply strictly during the calibrated window (Evening dusk window, zero rain forecast within 36h). Avoid application if wind exceeds 10 km/h to prevent chemical drift.\n4. SPRAY TECHNIQUE: Maintain nozzle height 45cm above crop canopy. Target underside of foliage where pests/pathogens shelter.\n5. RE-ENTRY INTERVAL: Do NOT allow unprotected workers into the treated zone for 24 hours post-spray.\n6. HARVEST RESTRICTION: DO NOT HARVEST ANY CROPS FROM THIS PLOT FOR AT LEAST 14 DAYS."
+    },
+    "75518983-a5bf-4629-b4f4-b9c0834b1189": {
+      "field_name": "East Alluvial Plot 12",
+      "field_size_acres": 85,
+      "crop_type": "Upland Cotton (Gossypium hirsutum)",
+      "growth_stage": "Boll Development (Stage 60% Open)",
+      "soil_type": "Clay Loam",
+      "soil_ph": 7.4,
+      "soil_n_status": "Optimal",
+      "soil_p_status": "Optimal",
+      "soil_k_status": "Optimal",
+      "soil_moisture_pct": 42,
+      "recent_rainfall_mm": 0,
+      "temperature_celsius": 33,
+      "humidity_pct": 54,
+      "observed_symptoms": "Square shedding and round bore holes observed in 18% of surveyed green bolls with visible larval frass. Third-instar caterpillars detected feeding inside flower bracts and young bolls.",
+      "symptom_distribution": "Field-Wide Uniform",
+      "user_id": "00000000-0000-0000-0000-000000000001",
+      "status": "APPROVED",
+      "overall_risk_level": "HIGH",
+      "requires_human_approval": true,
+      "is_approved": true,
+      "id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "created_at": "2026-10-07T14:50:10.030Z",
+      "updated_at": "2026-10-07T14:50:23.778Z",
+      "approved_by": "00000000-0000-0000-0000-000000000001",
+      "approval_timestamp": "2026-10-07T14:50:23.778Z",
+      "final_summary": "Agri-AURA multi-agent analysis diagnosed Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation on field \"East Alluvial Plot 12\" with 96% confidence. To prevent yield decline at Boll Development (Stage 60% Open) stage, an intervention of Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28) (CHEMICAL_SYNTHETIC) has been prescribed. MANDATORY HITL APPROVAL: High-risk synthetic application flagged with 14-day Pre-Harvest Interval. Total tasks generated: 3.\n\n[Human-in-the-Loop Override by Agronomist]: Calibrated for 85 acres with drone aerial boom sprayer. Certified by Farm Manager.",
+      "worker_instructions": "FIELD WORKER PROTOCOL FOR \"EAST ALLUVIAL PLOT 12\":\n1. SAFETY FIRST: Wear full chemical PPE: nitrile gloves, splash goggles, long-sleeved overalls, and half-face vapor mask.\n2. TANK MIX PREPARATION: Fill clean spray tank to 50% capacity with clean water. Add calibrated dose (60 mL / Acre in 150 L water). Agitate thoroughly for 3 minutes before topping with remaining water.\n3. TIMING: Apply strictly during the calibrated window (Evening dusk window, zero rain forecast within 36h). Avoid application if wind exceeds 10 km/h to prevent chemical drift.\n4. SPRAY TECHNIQUE: Maintain nozzle height 45cm above crop canopy. Target underside of foliage where pests/pathogens shelter.\n5. RE-ENTRY INTERVAL: Do NOT allow unprotected workers into the treated zone for 24 hours post-spray.\n6. HARVEST RESTRICTION: DO NOT HARVEST ANY CROPS FROM THIS PLOT FOR AT LEAST 14 DAYS."
     }
   },
   "advisory_agent_events": [
@@ -736,6 +765,217 @@
       "latency_ms": 12,
       "id": "1eec0780-48f1-450c-8a6c-5f9b88a9c518",
       "created_at": "2026-10-07T14:40:02.290Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "agent": "PLANNER",
+      "step_number": 1,
+      "status": "COMPLETED",
+      "summary": "Formulated 5 diagnostic subtasks focusing on Differentiate pathological/entomological vectors under Clay Loam conditions at Boll Development (Stage 60% Open) stage",
+      "reasoning_trace": {
+        "primary_focus": "Differentiate pathological/entomological vectors under Clay Loam conditions at Boll Development (Stage 60% Open) stage",
+        "risk_factors": [
+          "Thermal and transpiration stress",
+          "Optimal soil mineral assimilation window",
+          "Field-Wide Uniform symptom progression speed"
+        ]
+      },
+      "output_data": {
+        "planner_subtasks": [
+          "Audit Upland Cotton (Gossypium hirsutum) growth stage (Boll Development (Stage 60% Open)) nutrient demand curve against current soil status",
+          "Correlate visual symptom \"Square shedding and round bore holes obs...\" with Clay Loam chemistry and pH 7.4",
+          "Evaluate weather interactions: 0mm precipitation and 54% RH risk factors",
+          "Investigate spatial pattern (Field-Wide Uniform) for biotic infection vs abiotic leaching vectors",
+          "Formulate stratified biological and chemical intervention options with regulatory threshold checks"
+        ],
+        "primary_focus": "Differentiate pathological/entomological vectors under Clay Loam conditions at Boll Development (Stage 60% Open) stage",
+        "risk_factors_to_investigate": [
+          "Thermal and transpiration stress",
+          "Optimal soil mineral assimilation window",
+          "Field-Wide Uniform symptom progression speed"
+        ]
+      },
+      "latency_ms": 2501,
+      "id": "3e34ff8d-96d5-4c70-bd16-6edeb8a4271c",
+      "created_at": "2026-10-07T14:50:17.253Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "agent": "RESEARCHER",
+      "step_number": 2,
+      "status": "COMPLETED",
+      "summary": "Diagnosed Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation (96% confidence)",
+      "reasoning_trace": {
+        "soil_chemistry_analysis": "Soil fertility is adequate (K: Optimal, N: Optimal), but vegetative vigor has created dense canopy foliage providing shelter for nocturnal feeding.",
+        "stress_factors": [
+          "Favorable ambient temperature (33°C) accelerating larval instar progression",
+          "Crop currently in sensitive fruit/boll development stage where square boring causes irreversible yield loss"
+        ]
+      },
+      "output_data": {
+        "primary_diagnosis": "Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation",
+        "diagnosis_confidence": 96,
+        "stress_factors": [
+          "Favorable ambient temperature (33°C) accelerating larval instar progression",
+          "Crop currently in sensitive fruit/boll development stage where square boring causes irreversible yield loss"
+        ],
+        "soil_chemistry_analysis": "Soil fertility is adequate (K: Optimal, N: Optimal), but vegetative vigor has created dense canopy foliage providing shelter for nocturnal feeding.",
+        "initial_risk_level": "HIGH",
+        "pathogen_or_vector": "Helicoverpa armigera (Lepidoptera: Noctuidae)"
+      },
+      "latency_ms": 650,
+      "id": "4cbfb429-6af5-48dc-985a-c362ea1c6a72",
+      "created_at": "2026-10-07T14:50:19.043Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "agent": "DECISION",
+      "step_number": 3,
+      "status": "COMPLETED",
+      "summary": "Selected CHEMICAL_SYNTHETIC: Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28)",
+      "reasoning_trace": {
+        "rationale": "Larval pressure in late-season boll stage requires high-efficacy, rainfast systemic ingestion ovicide/larvicide. Chlorantraniliprole selected for exceptional specificity, preserving beneficial predators, while avoiding older broad-spectrum organophosphates.",
+        "alternatives_considered": [
+          "Pyrethroid lambda-cyhalothrin (rejected due to documented regional target-site resistance and non-target mite flare)",
+          "Bacillus thuringiensis spray exclusively (rejected as primary due to high instar caterpillars already boring inside bracts)"
+        ]
+      },
+      "output_data": {
+        "selected_intervention_type": "CHEMICAL_SYNTHETIC",
+        "primary_treatment": "Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28)",
+        "secondary_treatment": "Bacillus thuringiensis kurstaki (Btk) microbial foliar application",
+        "decision_rationale": "Larval pressure in late-season boll stage requires high-efficacy, rainfast systemic ingestion ovicide/larvicide. Chlorantraniliprole selected for exceptional specificity, preserving beneficial predators, while avoiding older broad-spectrum organophosphates.",
+        "treatment_alternatives_considered": [
+          "Pyrethroid lambda-cyhalothrin (rejected due to documented regional target-site resistance and non-target mite flare)",
+          "Bacillus thuringiensis spray exclusively (rejected as primary due to high instar caterpillars already boring inside bracts)"
+        ]
+      },
+      "latency_ms": 496,
+      "id": "2ea201ba-b2a3-497a-965e-deddcb2625ce",
+      "created_at": "2026-10-07T14:50:19.682Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "agent": "VERIFIER",
+      "step_number": 4,
+      "status": "WARNING",
+      "summary": "FLAGGED FOR HUMAN APPROVAL: PHI 14d, 3 hazards identified",
+      "reasoning_trace": {
+        "biosecurity_evaluation": "Synthetic agrochemical requires certified farm manager sign-off under Agri-AURA Safety Protocol. PHI is 14 days with strict buffer zone requirements.",
+        "hazards": [
+          "WHO Class II / Synthetic Active Ingredient: Regulated residue threshold",
+          "Mandatory Pre-Harvest Interval (PHI) of 14 days before mechanical or hand harvest",
+          "Strict Personal Protective Equipment (PPE) mandatory: chemical-resistant gloves, respirator"
+        ],
+        "rain_washoff_risk": false
+      },
+      "output_data": {
+        "is_safe_for_growth_stage": true,
+        "rain_washoff_risk": false,
+        "phi_days_required": 14,
+        "requires_human_approval": true,
+        "flagged_hazards": [
+          "WHO Class II / Synthetic Active Ingredient: Regulated residue threshold",
+          "Mandatory Pre-Harvest Interval (PHI) of 14 days before mechanical or hand harvest",
+          "Strict Personal Protective Equipment (PPE) mandatory: chemical-resistant gloves, respirator"
+        ],
+        "biosecurity_evaluation": "Synthetic agrochemical requires certified farm manager sign-off under Agri-AURA Safety Protocol. PHI is 14 days with strict buffer zone requirements.",
+        "overall_risk_level": "HIGH"
+      },
+      "latency_ms": 447,
+      "id": "94651b6d-e51f-462a-804e-748d424e410d",
+      "created_at": "2026-10-07T14:50:20.409Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "agent": "EXECUTOR",
+      "step_number": 5,
+      "status": "COMPLETED",
+      "summary": "Generated 3 calibrated field tasks within window \"Evening dusk window, zero rain forecast within 36h\"",
+      "reasoning_trace": {
+        "application_window": "Evening dusk window, zero rain forecast within 36h",
+        "irrigation_adjustment_hours": 0
+      },
+      "output_data": {
+        "action_tasks": [
+          {
+            "task_title": "Targeted High-Pressure Foliar Spray: Chlorantraniliprole 18.5% SC",
+            "category": "CHEMICAL_SYNTHETIC",
+            "dosage_or_rate": "60 mL / Acre in 150 L water",
+            "application_method": "Tractor boom sprayer with hollow-cone nozzles for full canopy penetration",
+            "scheduled_timing": "Day 1 - Dusk (17:30 - 20:00) during peak caterpillar emergence",
+            "pre_harvest_interval_days": 14,
+            "is_high_risk": true
+          },
+          {
+            "task_title": "Pheromone Trap Monitoring & Lure Replacement",
+            "category": "CULTURAL_MECHANICAL",
+            "dosage_or_rate": "5 trap stations / Acre",
+            "application_method": "Delta sticky traps with Helicoverpa sexual lure septum",
+            "scheduled_timing": "Day 2 - Morning",
+            "pre_harvest_interval_days": 0,
+            "is_high_risk": false
+          },
+          {
+            "task_title": "Secondary Bio-Barrier: Bacillus thuringiensis (Btk) Micro-Dust",
+            "category": "ORGANIC_BIOLOGICAL",
+            "dosage_or_rate": "400 g / Acre",
+            "application_method": "Foliar mist blower to protect upper terminal growth",
+            "scheduled_timing": "Day 8 - Following initial chemical dissipation",
+            "pre_harvest_interval_days": 0,
+            "is_high_risk": false
+          }
+        ],
+        "irrigation_adjustment_hours": 0,
+        "application_window": "Evening dusk window, zero rain forecast within 36h"
+      },
+      "latency_ms": 364,
+      "id": "a20fe4c5-c718-4cba-8c38-58c1bc7da23b",
+      "created_at": "2026-10-07T14:50:21.044Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "agent": "COMMUNICATOR",
+      "step_number": 6,
+      "status": "COMPLETED",
+      "summary": "Rendered manager executive briefing and multilingual worker instructions",
+      "reasoning_trace": {
+        "safety_warnings": {
+          "en": "Mandatory PPE required. Pre-harvest withholding period: 14 days.",
+          "es": "Equipo de protección personal obligatorio. Periodo de carencia: 14 días antes de cosechar.",
+          "hi": "व्यक्तिगत सुरक्षा उपकरण अनिवार्य हैं। कटाई से पहले 14 दिनों का अनिवार्य अंतराल रखें।"
+        }
+      },
+      "output_data": {
+        "final_summary": "Agri-AURA multi-agent analysis diagnosed Helicoverpa armigera (Cotton Bollworm) Late-Season Infestation on field \"East Alluvial Plot 12\" with 96% confidence. To prevent yield decline at Boll Development (Stage 60% Open) stage, an intervention of Chlorantraniliprole 18.5% SC (Anthranilic Diamide, IRAC Group 28) (CHEMICAL_SYNTHETIC) has been prescribed. MANDATORY HITL APPROVAL: High-risk synthetic application flagged with 14-day Pre-Harvest Interval. Total tasks generated: 3.",
+        "worker_instructions": "FIELD WORKER PROTOCOL FOR \"EAST ALLUVIAL PLOT 12\":\n1. SAFETY FIRST: Wear full chemical PPE: nitrile gloves, splash goggles, long-sleeved overalls, and half-face vapor mask.\n2. TANK MIX PREPARATION: Fill clean spray tank to 50% capacity with clean water. Add calibrated dose (60 mL / Acre in 150 L water). Agitate thoroughly for 3 minutes before topping with remaining water.\n3. TIMING: Apply strictly during the calibrated window (Evening dusk window, zero rain forecast within 36h). Avoid application if wind exceeds 10 km/h to prevent chemical drift.\n4. SPRAY TECHNIQUE: Maintain nozzle height 45cm above crop canopy. Target underside of foliage where pests/pathogens shelter.\n5. RE-ENTRY INTERVAL: Do NOT allow unprotected workers into the treated zone for 24 hours post-spray.\n6. HARVEST RESTRICTION: DO NOT HARVEST ANY CROPS FROM THIS PLOT FOR AT LEAST 14 DAYS.",
+        "safety_warnings_multilingual": {
+          "en": "Mandatory PPE required. Pre-harvest withholding period: 14 days.",
+          "es": "Equipo de protección personal obligatorio. Periodo de carencia: 14 días antes de cosechar.",
+          "hi": "व्यक्तिगत सुरक्षा उपकरण अनिवार्य हैं। कटाई से पहले 14 दिनों का अनिवार्य अंतराल रखें।"
+        }
+      },
+      "latency_ms": 446,
+      "id": "95f3ff7d-930d-4ace-bfd7-4e76d847151f",
+      "created_at": "2026-10-07T14:50:21.911Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "agent": "VERIFIER",
+      "step_number": 7,
+      "status": "COMPLETED",
+      "summary": "Human-in-the-Loop Gatekeeper: Action 'APPROVE' submitted by Farm Manager",
+      "reasoning_trace": {
+        "action": "APPROVE",
+        "modifications": "Calibrated for 85 acres with drone aerial boom sprayer. Certified by Farm Manager."
+      },
+      "output_data": {
+        "action": "APPROVE",
+        "timestamp": "2026-10-07T14:50:23.778Z"
+      },
+      "latency_ms": 12,
+      "id": "0a50b970-1097-4546-a1eb-0e61e72ed66c",
+      "created_at": "2026-10-07T14:50:24.069Z"
     }
   ],
   "advisory_action_tasks": [
@@ -855,24 +1095,63 @@
       "status": "PENDING",
       "id": "f8e13c78-0624-4af0-a714-f68a068bcab1",
       "created_at": "2026-10-07T14:39:57.142Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "task_title": "Targeted High-Pressure Foliar Spray: Chlorantraniliprole 18.5% SC",
+      "category": "CHEMICAL_SYNTHETIC",
+      "dosage_or_rate": "60 mL / Acre in 150 L water",
+      "application_method": "Tractor boom sprayer with hollow-cone nozzles for full canopy penetration",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 14,
+      "is_high_risk": true,
+      "status": "PENDING",
+      "id": "da925dde-4a4d-4151-b4ec-bdc1c270bcbf",
+      "created_at": "2026-10-07T14:50:21.278Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "task_title": "Pheromone Trap Monitoring & Lure Replacement",
+      "category": "CULTURAL_MECHANICAL",
+      "dosage_or_rate": "5 trap stations / Acre",
+      "application_method": "Delta sticky traps with Helicoverpa sexual lure septum",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 0,
+      "is_high_risk": false,
+      "status": "PENDING",
+      "id": "7e260577-119e-4890-802c-1a8f298308ac",
+      "created_at": "2026-10-07T14:50:21.278Z"
+    },
+    {
+      "advisory_id": "75518983-a5bf-4629-b4f4-b9c0834b1189",
+      "task_title": "Secondary Bio-Barrier: Bacillus thuringiensis (Btk) Micro-Dust",
+      "category": "ORGANIC_BIOLOGICAL",
+      "dosage_or_rate": "400 g / Acre",
+      "application_method": "Foliar mist blower to protect upper terminal growth",
+      "scheduled_date": "2026-10-07",
+      "pre_harvest_interval_days": 0,
+      "is_high_risk": false,
+      "status": "PENDING",
+      "id": "5590d5d8-8326-466a-9866-250945ed20e0",
+      "created_at": "2026-10-07T14:50:21.278Z"
     }
   ],
   "system_metrics": {
     "total_advisories_executed": {
       "metric_key": "total_advisories_executed",
-      "numeric_value": 145
+      "numeric_value": 146
     },
     "successful_interventions": {
       "metric_key": "successful_interventions",
-      "numeric_value": 140
+      "numeric_value": 141
     },
     "chemical_risks_prevented": {
       "metric_key": "chemical_risks_prevented",
-      "numeric_value": 41
+      "numeric_value": 42
     },
     "water_cubic_meters_saved": {
       "metric_key": "water_cubic_meters_saved",
-      "numeric_value": 22076
+      "numeric_value": 23139
     }
   }
 }
